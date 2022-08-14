@@ -96,7 +96,7 @@ input.submit {
   height: 47px;
   border: 2px solid rgba(0, 150, 136, 1);
   border-radius: 6px;
-  background: url(/imgs/sprite1.jpg);
+  background: url(imgs/sprite1.jpg);
   background-size: 16.4em;
   background-repeat: no-repeat;
   transition: .1s
@@ -123,7 +123,7 @@ input.submit {
 }
 
 .example.logo-3:hover {
-  background-position: -141px -5px
+  background-position: -141px -4px
 }
 
 .example.logo-4 {
