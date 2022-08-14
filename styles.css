@@ -1,0 +1,133 @@
+.form_container {
+  margin: auto;
+  padding: 120px 15px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/imgs/paralax-1.png);
+  background-attachment: fixed;
+  background-size: cover
+}
+
+.custom_form {
+  max-width: 400px;
+  width: 100%;
+  height: 600px;
+  border: 2px solid #00695c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  background: rgb(0, 150, 136);
+  background: linear-gradient(90deg, rgba(0, 150, 136, 1) 0%, rgba(38, 166, 154, 1) 23%, rgba(77, 182, 172, .958420868347339) 50%, rgba(38, 166, 154, 1) 77%, rgba(0, 150, 136, 1) 100%)
+}
+
+.form-title h2 {
+  margin: 30px auto;
+  font-size: 35px
+}
+
+input::placeholder {
+  color: #37474f
+}
+
+.custom_form input {
+  margin-bottom: 20px;
+  width: 75%;
+  line-height: 2;
+  padding-left: 20px;
+  border-radius: 50px;
+  border: 0;
+  background: rgb(0, 150, 136);
+  background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(128, 203, 196, 1) 100%);
+}
+
+.custom_form label {
+  margin-bottom: 10px;
+  width: 60%;
+  line-height: 2;
+  border-radius: 50px;
+  border: 0;
+  background: rgb(0, 150, 136);
+  background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(128, 203, 196, 1) 100%);
+  text-align: center
+}
+
+.nice-select {
+  width: 60%;
+  border-radius: 50px;
+  border: 0;
+  background: rgb(0, 150, 136);
+  background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(128, 203, 196, 1) 100%);
+  text-align: center;
+  height: 8%
+}
+
+ul.list {
+  width: 100%;
+  border: 1px solid rgb(5, 3, 4);
+  background: rgb(0, 137, 123);
+  background: linear-gradient(180deg, rgba(0, 137, 123, 1) 0%, rgba(38, 166, 154, 1) 50%, rgba(38, 166, 154, 1) 100%)
+}
+
+li.option.selected.focus {
+  background: rgb(38, 166, 154);
+  background: linear-gradient(180deg, rgba(38, 166, 154, 1) 0%, rgba(128, 203, 196, 1) 39%, rgba(77, 182, 172, .9864320728291317) 75%, rgba(38, 166, 154, 1) 100%)
+}
+
+input.submit {
+  margin: 20px;
+  font-size: 29px;
+  font-weight: 500;
+  background: #cddc39
+}
+
+.logo-row.d-flex {
+  width: 244px;
+  height: 62px;
+  border-radius: 7px
+}
+
+.example {
+  margin: 7px;
+  width: 47px;
+  height: 47px;
+  border: 2px solid rgba(0, 150, 136, 1);
+  border-radius: 6px;
+  background: url(/imgs/sprite1.jpg);
+  background-size: 16.4em;
+  background-repeat: no-repeat;
+  transition: .1s
+}
+
+.example.logo-1 {
+  background-position: -12px -63px
+}
+
+.example.logo-1:hover {
+  background-position: -12px -4px
+}
+
+.example.logo-2 {
+  background-position: -80px -63px
+}
+
+.example.logo-2:hover {
+  background-position: -80px -4px
+}
+
+.example.logo-3 {
+  background-position: -141px -63px
+}
+
+.example.logo-3:hover {
+  background-position: -141px -5px
+}
+
+.example.logo-4 {
+  background-position: -206px -63px
+}
+
+.example.logo-4:hover {
+  background-position: -206px -5px
+}
