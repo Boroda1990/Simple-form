@@ -83,6 +83,8 @@ input.submit {
 }
 
 .logo-row.d-flex {
+  display:flex;
+  flex-direction: row;
   width: 244px;
   height: 62px;
   border-radius: 7px
