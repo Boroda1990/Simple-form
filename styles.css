@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/imgs/paralax-1.png);
+  background: url(imgs/paralax-1.png);
   background-attachment: fixed;
   background-size: cover
 }
